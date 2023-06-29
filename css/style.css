@@ -1,29 +1,55 @@
-*{
+.debug {
+    border: 1px solid red;
+}
+
+/*region general CSS */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --fc-dark:#000;
-    --fc-light:#fff;
-    --fc-cardbg:rgba(15, 14, 23, 1);
-    --fc-mail:rgba(80, 174, 194, 1);
-    --fc-title:rgba(229, 54, 125, 1);
+:root {
+    --fc-dark: #000;
+    --fc-light: #fff;
+    --fc-cardbg: rgba(15, 14, 23, 1);
+    --fc-mail: rgba(80, 174, 194, 1);
+    --fc-title: rgba(229, 54, 125, 1);
 }
 
-h1{
+body {
+    max-width: 1170px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+h1 {
+    margin-bottom: 2rem;
     font-family: 'Dosis', sans-serif;
     font-weight: 800;
-text-transform: capitalize;
+    text-transform: capitalize;
+    color: var(--fc-title);
 }
 
-h5{
+h5 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
 }
 
-p{
+p {
     font-family: 'Dosis', sans-serif;
     font-weight: 200;
 }
+
+/* #endregion general CSS*/
+
+/* #region common CSS */
+
+
+
+/* #endregion common CSS */
