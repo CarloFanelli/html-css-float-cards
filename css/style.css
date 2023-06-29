@@ -36,9 +36,10 @@ h1 {
     color: var(--fc-title);
 }
 
-h5 {
+h4 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 p {
@@ -50,6 +51,29 @@ p {
 
 /* #region common CSS */
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+.row {}
+
+.col {
+    width: calc(100% / 3);
+    background-color: yellow;
+    float: left;
+}
+
+.col_photo {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    float: left;
+}
+
+.col_text {
+    width: 70%;
+    float: left;
+}
 
 /* #endregion common CSS */
