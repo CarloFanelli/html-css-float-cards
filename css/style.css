@@ -64,12 +64,15 @@ a{
     clear: both;
 }
 
-.row {}
+.row {
+    padding-bottom: 2rem;
+}
 
 .col {
     width: calc(100% / 3);
     background-color: var(--fc-cardbg);
     float: left;
+    box-shadow:0 0 5px black;
 }
 
 .col_photo {
@@ -84,3 +87,11 @@ a{
 }
 
 /* #endregion common CSS */
+
+/* #region header CSS */
+
+.subtitle > p{
+    color: var(--fc-dark);
+}
+
+/* #endregion header CSS */
