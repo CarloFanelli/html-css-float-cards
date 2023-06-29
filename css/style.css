@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --fc-dark:#000;
+    --fc-light:#fff;
+    --fc-cardbg:rgba(15, 14, 23, 1);
+    --fc-mail:rgba(80, 174, 194, 1);
+    --fc-title:rgba(229, 54, 125, 1);
+}
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+text-transform: capitalize;
+}
+
+h5{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+}
